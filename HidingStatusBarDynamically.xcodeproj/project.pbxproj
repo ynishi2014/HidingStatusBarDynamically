@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2285BC91977B09E00422381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2285BC81977B09E00422381 /* Foundation.framework */; };
+		C2285BCB1977B09E00422381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2285BCA1977B09E00422381 /* CoreGraphics.framework */; };
+		C2285BCD1977B09E00422381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2285BCC1977B09E00422381 /* UIKit.framework */; };
+		C2285BD31977B09E00422381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2285BD11977B09E00422381 /* InfoPlist.strings */; };
+		C2285BD51977B09E00422381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2285BD41977B09E00422381 /* main.m */; };
+		C2285BD91977B09E00422381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2285BD81977B09E00422381 /* AppDelegate.m */; };
+		C2285BDC1977B09E00422381 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2285BDA1977B09E00422381 /* Main_iPhone.storyboard */; };
+		C2285BDF1977B09E00422381 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2285BDD1977B09E00422381 /* Main_iPad.storyboard */; };
+		C2285BE21977B09E00422381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2285BE11977B09E00422381 /* ViewController.m */; };
+		C2285BE41977B09E00422381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2285BE31977B09E00422381 /* Images.xcassets */; };
+		C2285BEB1977B09E00422381 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2285BEA1977B09E00422381 /* XCTest.framework */; };
+		C2285BEC1977B09E00422381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2285BC81977B09E00422381 /* Foundation.framework */; };
+		C2285BED1977B09E00422381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2285BCC1977B09E00422381 /* UIKit.framework */; };
+		C2285BF51977B09E00422381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2285BF31977B09E00422381 /* InfoPlist.strings */; };
+		C2285BF71977B09E00422381 /* HidingStatusBarDynamicallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2285BF61977B09E00422381 /* HidingStatusBarDynamicallyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2285BEE1977B09E00422381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2285BBD1977B09E00422381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2285BC41977B09E00422381;
+			remoteInfo = HidingStatusBarDynamically;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2285BC51977B09E00422381 /* HidingStatusBarDynamically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HidingStatusBarDynamically.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2285BC81977B09E00422381 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2285BCA1977B09E00422381 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2285BCC1977B09E00422381 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2285BD01977B09E00422381 /* HidingStatusBarDynamically-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HidingStatusBarDynamically-Info.plist"; sourceTree = "<group>"; };
+		C2285BD21977B09E00422381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2285BD41977B09E00422381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2285BD61977B09E00422381 /* HidingStatusBarDynamically-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HidingStatusBarDynamically-Prefix.pch"; sourceTree = "<group>"; };
+		C2285BD71977B09E00422381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2285BD81977B09E00422381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2285BDB1977B09E00422381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C2285BDE1977B09E00422381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C2285BE01977B09E00422381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2285BE11977B09E00422381 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2285BE31977B09E00422381 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2285BE91977B09E00422381 /* HidingStatusBarDynamicallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HidingStatusBarDynamicallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2285BEA1977B09E00422381 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2285BF21977B09E00422381 /* HidingStatusBarDynamicallyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HidingStatusBarDynamicallyTests-Info.plist"; sourceTree = "<group>"; };
+		C2285BF41977B09E00422381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2285BF61977B09E00422381 /* HidingStatusBarDynamicallyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HidingStatusBarDynamicallyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2285BC21977B09E00422381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2285BCB1977B09E00422381 /* CoreGraphics.framework in Frameworks */,
+				C2285BCD1977B09E00422381 /* UIKit.framework in Frameworks */,
+				C2285BC91977B09E00422381 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2285BE61977B09E00422381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2285BEB1977B09E00422381 /* XCTest.framework in Frameworks */,
+				C2285BED1977B09E00422381 /* UIKit.framework in Frameworks */,
+				C2285BEC1977B09E00422381 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2285BBC1977B09E00422381 = {
+			isa = PBXGroup;
+			children = (
+				C2285BCE1977B09E00422381 /* HidingStatusBarDynamically */,
+				C2285BF01977B09E00422381 /* HidingStatusBarDynamicallyTests */,
+				C2285BC71977B09E00422381 /* Frameworks */,
+				C2285BC61977B09E00422381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2285BC61977B09E00422381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2285BC51977B09E00422381 /* HidingStatusBarDynamically.app */,
+				C2285BE91977B09E00422381 /* HidingStatusBarDynamicallyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2285BC71977B09E00422381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2285BC81977B09E00422381 /* Foundation.framework */,
+				C2285BCA1977B09E00422381 /* CoreGraphics.framework */,
+				C2285BCC1977B09E00422381 /* UIKit.framework */,
+				C2285BEA1977B09E00422381 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2285BCE1977B09E00422381 /* HidingStatusBarDynamically */ = {
+			isa = PBXGroup;
+			children = (
+				C2285BD71977B09E00422381 /* AppDelegate.h */,
+				C2285BD81977B09E00422381 /* AppDelegate.m */,
+				C2285BDA1977B09E00422381 /* Main_iPhone.storyboard */,
+				C2285BDD1977B09E00422381 /* Main_iPad.storyboard */,
+				C2285BE01977B09E00422381 /* ViewController.h */,
+				C2285BE11977B09E00422381 /* ViewController.m */,
+				C2285BE31977B09E00422381 /* Images.xcassets */,
+				C2285BCF1977B09E00422381 /* Supporting Files */,
+			);
+			path = HidingStatusBarDynamically;
+			sourceTree = "<group>";
+		};
+		C2285BCF1977B09E00422381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2285BD01977B09E00422381 /* HidingStatusBarDynamically-Info.plist */,
+				C2285BD11977B09E00422381 /* InfoPlist.strings */,
+				C2285BD41977B09E00422381 /* main.m */,
+				C2285BD61977B09E00422381 /* HidingStatusBarDynamically-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2285BF01977B09E00422381 /* HidingStatusBarDynamicallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2285BF61977B09E00422381 /* HidingStatusBarDynamicallyTests.m */,
+				C2285BF11977B09E00422381 /* Supporting Files */,
+			);
+			path = HidingStatusBarDynamicallyTests;
+			sourceTree = "<group>";
+		};
+		C2285BF11977B09E00422381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2285BF21977B09E00422381 /* HidingStatusBarDynamicallyTests-Info.plist */,
+				C2285BF31977B09E00422381 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2285BC41977B09E00422381 /* HidingStatusBarDynamically */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2285BFA1977B09E00422381 /* Build configuration list for PBXNativeTarget "HidingStatusBarDynamically" */;
+			buildPhases = (
+				C2285BC11977B09E00422381 /* Sources */,
+				C2285BC21977B09E00422381 /* Frameworks */,
+				C2285BC31977B09E00422381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HidingStatusBarDynamically;
+			productName = HidingStatusBarDynamically;
+			productReference = C2285BC51977B09E00422381 /* HidingStatusBarDynamically.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2285BE81977B09E00422381 /* HidingStatusBarDynamicallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2285BFD1977B09E00422381 /* Build configuration list for PBXNativeTarget "HidingStatusBarDynamicallyTests" */;
+			buildPhases = (
+				C2285BE51977B09E00422381 /* Sources */,
+				C2285BE61977B09E00422381 /* Frameworks */,
+				C2285BE71977B09E00422381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2285BEF1977B09E00422381 /* PBXTargetDependency */,
+			);
+			name = HidingStatusBarDynamicallyTests;
+			productName = HidingStatusBarDynamicallyTests;
+			productReference = C2285BE91977B09E00422381 /* HidingStatusBarDynamicallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2285BBD1977B09E00422381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "西村洋一郎";
+				TargetAttributes = {
+					C2285BE81977B09E00422381 = {
+						TestTargetID = C2285BC41977B09E00422381;
+					};
+				};
+			};
+			buildConfigurationList = C2285BC01977B09E00422381 /* Build configuration list for PBXProject "HidingStatusBarDynamically" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2285BBC1977B09E00422381;
+			productRefGroup = C2285BC61977B09E00422381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2285BC41977B09E00422381 /* HidingStatusBarDynamically */,
+				C2285BE81977B09E00422381 /* HidingStatusBarDynamicallyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2285BC31977B09E00422381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2285BDF1977B09E00422381 /* Main_iPad.storyboard in Resources */,
+				C2285BE41977B09E00422381 /* Images.xcassets in Resources */,
+				C2285BDC1977B09E00422381 /* Main_iPhone.storyboard in Resources */,
+				C2285BD31977B09E00422381 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2285BE71977B09E00422381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2285BF51977B09E00422381 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2285BC11977B09E00422381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2285BE21977B09E00422381 /* ViewController.m in Sources */,
+				C2285BD91977B09E00422381 /* AppDelegate.m in Sources */,
+				C2285BD51977B09E00422381 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2285BE51977B09E00422381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2285BF71977B09E00422381 /* HidingStatusBarDynamicallyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2285BEF1977B09E00422381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2285BC41977B09E00422381 /* HidingStatusBarDynamically */;
+			targetProxy = C2285BEE1977B09E00422381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2285BD11977B09E00422381 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2285BD21977B09E00422381 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2285BDA1977B09E00422381 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2285BDB1977B09E00422381 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C2285BDD1977B09E00422381 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2285BDE1977B09E00422381 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C2285BF31977B09E00422381 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2285BF41977B09E00422381 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2285BF81977B09E00422381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2285BF91977B09E00422381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2285BFB1977B09E00422381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HidingStatusBarDynamically/HidingStatusBarDynamically-Prefix.pch";
+				INFOPLIST_FILE = "HidingStatusBarDynamically/HidingStatusBarDynamically-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2285BFC1977B09E00422381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HidingStatusBarDynamically/HidingStatusBarDynamically-Prefix.pch";
+				INFOPLIST_FILE = "HidingStatusBarDynamically/HidingStatusBarDynamically-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2285BFE1977B09E00422381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HidingStatusBarDynamically.app/HidingStatusBarDynamically";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HidingStatusBarDynamically/HidingStatusBarDynamically-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HidingStatusBarDynamicallyTests/HidingStatusBarDynamicallyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2285BFF1977B09E00422381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HidingStatusBarDynamically.app/HidingStatusBarDynamically";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HidingStatusBarDynamically/HidingStatusBarDynamically-Prefix.pch";
+				INFOPLIST_FILE = "HidingStatusBarDynamicallyTests/HidingStatusBarDynamicallyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2285BC01977B09E00422381 /* Build configuration list for PBXProject "HidingStatusBarDynamically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2285BF81977B09E00422381 /* Debug */,
+				C2285BF91977B09E00422381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2285BFA1977B09E00422381 /* Build configuration list for PBXNativeTarget "HidingStatusBarDynamically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2285BFB1977B09E00422381 /* Debug */,
+				C2285BFC1977B09E00422381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2285BFD1977B09E00422381 /* Build configuration list for PBXNativeTarget "HidingStatusBarDynamicallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2285BFE1977B09E00422381 /* Debug */,
+				C2285BFF1977B09E00422381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2285BBD1977B09E00422381 /* Project object */;
+}

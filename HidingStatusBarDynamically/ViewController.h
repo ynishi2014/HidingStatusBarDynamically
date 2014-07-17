@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)toggleStatusBar:(id)sender;
+
 @end

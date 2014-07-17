@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
+@interface ViewController (){
+	bool statusBarHidden;
+}
 @end
 
 @implementation ViewController
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	statusBarHidden = NO;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +26,20 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)toggleStatusBar:(id)sender{
+	statusBarHidden = !statusBarHidden;
+	[self setNeedsStatusBarAppearanceUpdate];
+	NSLog(@"toggleStatusBar");
+	if(statusBarHidden){
+		NSLog(@"visible->hidden");
+	}else{
+		NSLog(@"hidden->visible");
+	}
+}
+- (BOOL)prefersStatusBarHidden {
+    return statusBarHidden;
 }
 
 @end
